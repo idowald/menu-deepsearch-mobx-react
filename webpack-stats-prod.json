@@ -1,0 +1,1 @@
+{"status":"error","publicPath":"/static/dist/","error":"ModuleNotFoundError","message":"Module not found: Error: Can't resolve './src/index.js' in 'C:\\dev\\mycheck\\app'"}
