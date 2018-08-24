@@ -9,17 +9,24 @@ Open index.html file
 This is only a production mode of the repo,
 To run dev mode  change index.html "/dist/bundle.js" to "/static/bundle.js".
 
-## Getting Started
-
-1. Download/clone all files
-2. In the file run cmd and 
+# Dev-mode:
+simply change in index.html the line:
+```
+    <script src="dist/bundle.js"></script>
+```
+to the line
+```   
+ <script src="/static/bundle.js"></script>
+```
+and then 
 ```
 npm install
 ```
-3. Run the application
+Run the application
 ```
 npm start
 ```
+
 
 ### Bugs/not prepared features
 1. React virtualize- to keep the components size small using this technique.
