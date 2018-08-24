@@ -5,7 +5,6 @@ import {Collapse, Panel} from "react-bootstrap";
 
 export default class ClassItem extends React.Component {
 
-//@observable someAttribute = ..
 
     constructor(props) {
         super();
@@ -16,7 +15,7 @@ export default class ClassItem extends React.Component {
     render() {
         const {item} = this.props;
         return (
-            <div className="ClassItem"  style={{hidden : window.deepSearch && window.foundItems.find(_item=> _item.id === item.id)}}>
+            <div className="ClassItem">
                 <Panel bsStyle="primary">
                     <Panel.Heading onClick={()=>this.setState({show: !this.state.show})}>
                         <div className="ClassItemName">

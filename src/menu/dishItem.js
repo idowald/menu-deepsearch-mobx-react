@@ -3,14 +3,10 @@ import React from 'react';
 import ModifierGroup from "./modifierGroup";
 import {Collapse, Panel} from "react-bootstrap";
 
-//import {observable} from "mobx"
-import {observer, inject} from 'mobx-react';
-//import autobind from 'autobind-decorator'
 
-@observer
+
 export default  class DishItem extends React.Component {
 
-//@observable someAttribute = ..
 
     constructor(props) {
         super();
@@ -25,7 +21,7 @@ export default  class DishItem extends React.Component {
         const {item} = this.props;
         const {show} = this.state;
         return (
-            <div className="DishItem"  style={{hidden : window.deepSearch && window.foundItems.find(_item=> _item.id === item.id)}}>
+            <div className="DishItem">
                 <Panel>
                     <Panel.Heading onClick={()=>this.showChildren()}>
                         <div className="ItemId">

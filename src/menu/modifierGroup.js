@@ -2,12 +2,7 @@
 import React from 'react';
 import ModifierItem from "./modifierItem";
 
-//import {observable} from "mobx"
-//import {observer, inject} from 'mobx-react';
-//import autobind from 'autobind-decorator'
 
-//@inject
-//@observer
 export default class ModifierGroup extends React.Component {
 
 

@@ -2,12 +2,6 @@ import './modifierItem.less';
 
 import React from 'react';
 
-//import {observable} from "mobx"
-//import {observer, inject} from 'mobx-react';
-//import autobind from 'autobind-decorator'
-
-//@inject
-//@observer
 export default class ModifierItem extends React.Component {
 
 //@observable someAttribute = ..

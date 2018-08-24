@@ -13,13 +13,6 @@ export default class App extends React.Component {
         super();
     }
 
-
-    componentDidMount() {
-    }
-
-    componentWillUnmount() {
-    }
-
     render() {
         const {t} = this.props;
         return (

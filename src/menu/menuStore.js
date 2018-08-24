@@ -1,6 +1,6 @@
 import { observable } from 'mobx';
 import {get} from 'ajax';
-import {ToastSuccess, ToastDanger} from 'react-toastr-basic';
+import {ToastDanger} from 'react-toastr-basic';
 
 
 class MenuStore {
