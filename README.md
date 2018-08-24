@@ -39,5 +39,6 @@ npm start
 1. deep search over the tree using normalize method (converting to array and search) to prevent max stack error.
 2. shallow filtering search.
 3. Click on item to see collapsed information on it's children components.
+3. The search is case-sensitive
 
 
